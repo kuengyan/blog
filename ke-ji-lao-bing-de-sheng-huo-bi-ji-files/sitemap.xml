@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://localhost/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://localhost/</loc>
+</url>
+<url>
+<loc>https://localhost/0050-00878-investment-guide.html</loc>
+<lastmod>2025-11-26T19:18:08+08:00</lastmod>
+</url>
+<url>
+<loc>https://localhost/0050-00878-vs-us-stocks-python.html</loc>
+<lastmod>2025-11-26T19:18:23+08:00</lastmod>
+</url>
+<url>
+<loc>https://localhost/2026-stock-strategy-0050-backtest.html</loc>
+<lastmod>2025-11-26T19:18:37+08:00</lastmod>
+</url>
+<url>
+<loc>https://localhost/buy-dip-vs-market-python-heatmap.html</loc>
+<lastmod>2025-11-26T19:18:48+08:00</lastmod>
+</url>
+<url>
+<loc>https://localhost/dca-vs-buy-the-dip-etf-backtest.html</loc>
+<lastmod>2025-11-26T19:17:56+08:00</lastmod>
+</url>
+<url>
+<loc>https://localhost/high-dividend-vs-market-cap-etf.html</loc>
+<lastmod>2025-11-26T19:14:30+08:00</lastmod>
+</url>
+<url>
+<loc>https://localhost/page/2/</loc>
+</url>
+<url>
+<loc>https://localhost/replace-win11-cangjie-with-rime.html</loc>
+<lastmod>2025-11-26T19:17:41+08:00</lastmod>
+</url>
+</urlset>
