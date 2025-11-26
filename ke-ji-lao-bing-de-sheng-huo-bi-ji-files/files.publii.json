@@ -2,22 +2,22 @@
     {
         "path": "0050-00878-investment-guide.html",
         "type": "file",
-        "md5": "a8f782da14785353561d75ba0ca17d7e"
+        "md5": "7cb7691011eb3c678de47ab831c68862"
     },
     {
         "path": "0050-00878-vs-us-stocks-python.html",
         "type": "file",
-        "md5": "33ad2e73442c7eeb234d5e4c20f01382"
+        "md5": "c5262149340263dcea0641172d29fd03"
     },
     {
         "path": "2026-stock-strategy-0050-backtest.html",
         "type": "file",
-        "md5": "fe1ab34a531e18d0495d0f5b9af4a15e"
+        "md5": "7a97135def6e13e3f85248f173224469"
     },
     {
         "path": "404.html",
         "type": "file",
-        "md5": "4863d3c4c9dbfb8cc3cb84ba69a9fadc"
+        "md5": "8069486b45311bc09f1ed24345eb7ac8"
     },
     {
         "path": "assets",
@@ -97,7 +97,7 @@
     {
         "path": "/authors/lao-bing/index.html",
         "type": "file",
-        "md5": "3742af58874427d2b3f4027b09fe7588"
+        "md5": "c06d2d5a5b74f59146a7db3f17393bf4"
     },
     {
         "path": "authors/lao-bing/page",
@@ -112,37 +112,37 @@
     {
         "path": "/authors/lao-bing/page/2/index.html",
         "type": "file",
-        "md5": "967cd5275533d75ce5ad9a671c14b765"
+        "md5": "4724edb93fd12889883bcb1520673c3e"
     },
     {
         "path": "buy-dip-vs-market-python-heatmap.html",
         "type": "file",
-        "md5": "54a3dd0f0e89e8df65ea5119ecf7fc92"
+        "md5": "e24654cd40c0e1804f3d3441ce9e9f71"
     },
     {
         "path": "dca-vs-buy-the-dip-etf-backtest.html",
         "type": "file",
-        "md5": "b2b5b37e230aa442647b37727950eed9"
+        "md5": "9ce2c1dfce22de27cd4879a3c60f1392"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "f48f3f037c5f91151304cfb350b9ad14"
+        "md5": "b26b5b1880da47858e79ceb59336c7ec"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "810b7948e46ef9362e7587bc70e82fa1"
+        "md5": "9ce4692ecd4575bce14eeb9139f06ecc"
     },
     {
         "path": "high-dividend-vs-market-cap-etf.html",
         "type": "file",
-        "md5": "459081e8520b79be61d23b7e4bc9296f"
+        "md5": "fe8a2a0decb41d38db160a3fd2ee0f3f"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "603e4521fdada3ec5a265b78613f72d4"
+        "md5": "7e4a4b8e21d0767f1b64c4ebae14bd10"
     },
     {
         "path": "page",
@@ -157,22 +157,22 @@
     {
         "path": "/page/2/index.html",
         "type": "file",
-        "md5": "854db77a00c5151b199510798650fb59"
+        "md5": "c7fc595fc8a82cfe9f436af833410ac3"
     },
     {
         "path": "replace-win11-cangjie-with-rime.html",
         "type": "file",
-        "md5": "c55792d31a9a6c7c23bd44b4f4054e9f"
+        "md5": "3e598502ff30391532867f43a81e3574"
     },
     {
         "path": "robots.txt",
         "type": "file",
-        "md5": "e47f35c1628de897aab8132285a706c1"
+        "md5": "51063849fe436f6348cdce54b870b8e5"
     },
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "9a48c18324d161a9454abf5c1e710fe6"
+        "md5": "cfc8cfed5d0f6f1359f105e9943ff7df"
     },
     {
         "path": "sitemap.xsl",
@@ -187,6 +187,6 @@
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "593011ea3f9631d920c71bd974c76dec"
+        "md5": "3b67f829cd693cc5142a4ba0dbc6aa43"
     }
 ]

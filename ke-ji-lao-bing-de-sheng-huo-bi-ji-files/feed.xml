@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>科技老兵的生活筆記</title>
-    <link href="https://blog-8kr.pages.dev/feed.xml" rel="self" />
-    <link href="https://blog-8kr.pages.dev" />
+    <link href="https://focusonmystory.pages.dev/feed.xml" rel="self" />
+    <link href="https://focusonmystory.pages.dev" />
     <updated>2025-11-26T19:18:48+08:00</updated>
     <author>
         <name>老兵</name>
     </author>
-    <id>https://blog-8kr.pages.dev</id>
+    <id>https://focusonmystory.pages.dev</id>
 
     <entry>
         <title>養了多年的金雞母（高股息），該不該換成千里馬（市值型）？兩張圖帶你闖關破解迷思（完整攻略版）</title>
         <author>
             <name>老兵</name>
         </author>
-        <link href="https://blog-8kr.pages.dev/high-dividend-vs-market-cap-etf.html"/>
-        <id>https://blog-8kr.pages.dev/high-dividend-vs-market-cap-etf.html</id>
+        <link href="https://focusonmystory.pages.dev/high-dividend-vs-market-cap-etf.html"/>
+        <id>https://focusonmystory.pages.dev/high-dividend-vs-market-cap-etf.html</id>
 
         <updated>2025-11-25T21:22:29+08:00</updated>
             <summary type="html">
@@ -157,8 +157,8 @@
         <author>
             <name>老兵</name>
         </author>
-        <link href="https://blog-8kr.pages.dev/buy-dip-vs-market-python-heatmap.html"/>
-        <id>https://blog-8kr.pages.dev/buy-dip-vs-market-python-heatmap.html</id>
+        <link href="https://focusonmystory.pages.dev/buy-dip-vs-market-python-heatmap.html"/>
+        <id>https://focusonmystory.pages.dev/buy-dip-vs-market-python-heatmap.html</id>
 
         <updated>2025-11-25T21:22:09+08:00</updated>
             <summary type="html">
@@ -319,8 +319,8 @@
         <author>
             <name>老兵</name>
         </author>
-        <link href="https://blog-8kr.pages.dev/2026-stock-strategy-0050-backtest.html"/>
-        <id>https://blog-8kr.pages.dev/2026-stock-strategy-0050-backtest.html</id>
+        <link href="https://focusonmystory.pages.dev/2026-stock-strategy-0050-backtest.html"/>
+        <id>https://focusonmystory.pages.dev/2026-stock-strategy-0050-backtest.html</id>
 
         <updated>2025-11-25T21:21:24+08:00</updated>
             <summary type="html">
@@ -525,8 +525,8 @@
         <author>
             <name>老兵</name>
         </author>
-        <link href="https://blog-8kr.pages.dev/0050-00878-vs-us-stocks-python.html"/>
-        <id>https://blog-8kr.pages.dev/0050-00878-vs-us-stocks-python.html</id>
+        <link href="https://focusonmystory.pages.dev/0050-00878-vs-us-stocks-python.html"/>
+        <id>https://focusonmystory.pages.dev/0050-00878-vs-us-stocks-python.html</id>
 
         <updated>2025-11-25T21:21:02+08:00</updated>
             <summary type="html">
@@ -682,8 +682,8 @@
         <author>
             <name>老兵</name>
         </author>
-        <link href="https://blog-8kr.pages.dev/0050-00878-investment-guide.html"/>
-        <id>https://blog-8kr.pages.dev/0050-00878-investment-guide.html</id>
+        <link href="https://focusonmystory.pages.dev/0050-00878-investment-guide.html"/>
+        <id>https://focusonmystory.pages.dev/0050-00878-investment-guide.html</id>
 
         <updated>2025-11-25T21:20:40+08:00</updated>
             <summary type="html">
@@ -819,8 +819,8 @@
         <author>
             <name>老兵</name>
         </author>
-        <link href="https://blog-8kr.pages.dev/dca-vs-buy-the-dip-etf-backtest.html"/>
-        <id>https://blog-8kr.pages.dev/dca-vs-buy-the-dip-etf-backtest.html</id>
+        <link href="https://focusonmystory.pages.dev/dca-vs-buy-the-dip-etf-backtest.html"/>
+        <id>https://focusonmystory.pages.dev/dca-vs-buy-the-dip-etf-backtest.html</id>
 
         <updated>2025-11-25T21:20:18+08:00</updated>
             <summary type="html">
@@ -988,8 +988,8 @@
         <author>
             <name>老兵</name>
         </author>
-        <link href="https://blog-8kr.pages.dev/replace-win11-cangjie-with-rime.html"/>
-        <id>https://blog-8kr.pages.dev/replace-win11-cangjie-with-rime.html</id>
+        <link href="https://focusonmystory.pages.dev/replace-win11-cangjie-with-rime.html"/>
+        <id>https://focusonmystory.pages.dev/replace-win11-cangjie-with-rime.html</id>
 
         <updated>2025-11-25T20:32:34+08:00</updated>
             <summary type="html">
