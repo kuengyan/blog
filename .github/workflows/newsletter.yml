@@ -1,0 +1,37 @@
+name: Newsletter Sender
+
+on:
+  # 1. 允許手動點擊按鈕觸發 (測試時或不想自動發送時很有用)
+  workflow_dispatch:
+  
+  # 2. 當推送到 main 分支時觸發
+  push:
+    branches:
+      - main
+    # 【安全閥】只有當 Commit Message 包含 [NOTIFY] 時才真的寄信
+    # 這樣避免你只是改個錯字就誤發信給所有人
+    if: "contains(github.event.head_commit.message, '[NOTIFY]')"
+
+jobs:
+  send-email:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code (下載程式碼)
+        uses: actions/checkout@v3
+
+      - name: Set up Python (設定 Python 環境)
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies (安裝必要套件)
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run Email Script (執行寄信腳本)
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_PASS: ${{ secrets.GMAIL_PASS }}
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+        run: |
+          python send_email_robust.py
