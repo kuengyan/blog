@@ -3,7 +3,7 @@
     <title>科技老兵的生活筆記</title>
     <link href="https://focusonmystory.pages.dev/feed.xml" rel="self" />
     <link href="https://focusonmystory.pages.dev" />
-    <updated>2025-11-26T19:18:48+08:00</updated>
+    <updated>2025-11-28T20:37:43+08:00</updated>
     <author>
         <name>老兵</name>
     </author>
@@ -136,10 +136,6 @@
 <li><strong>記得股息再投入</strong>，才能發揮複利威力。</li>
 </ul>
 <p style="margin-top: 20px; font-weight: bold;">投資是一場馬拉松，選擇一匹更有耐力的馬，終點會很不一樣。加油！💪</p>
-</div>
-<div style="border: 2px dashed #0050b3; border-radius: 10px; padding: 20px; margin: 40px 0; text-align: center;">
-<h3 style="color: #0050b3; margin-top: 0;">🎉 喜歡這篇實用的投資分析嗎？</h3>
-<p>投資的路上，你不需要一個人摸索。歡迎按下訂閱/追蹤，不錯過關於台股、ETF 的深度數據分析！</p>
 </div>
 <div style="font-size: 0.8em; color: #999; margin-top: 50px; border-top: 1px solid #eee; padding-top: 20px;"><strong>⚠️ 投資提醒</strong>
 <ul style="padding-left: 20px;">
@@ -303,11 +299,6 @@
 <hr style="border-bottom: 0px; border-image: initial; border-left: 0px; border-right: 0px; border-top: 1px dashed #cccccc; border: 0px; margin: 15px 0px;">
 <p><strong style="color: #333333;">3. 資金控管（最重要）：</strong><br>為了應對那 12% 的極端黑天鵝，請將資金分成 3 份（現在、再跌 5%、再跌 10%）分批進場。</p>
 </div>
-</div>
-<div style="background-color: #fffbe6; border-left: 5px solid #d48806; color: #555555; font-size: 1.2em; font-weight: bold; margin: 40px 0px; padding: 20px; text-align: center;">「跌深不等於便宜；只有品質下跌的東西才會一直跌。<br>你以為你在抄底，其實你是在承擔別人不要的風險。」</div>
-<div style="background: linear-gradient(to right, #f8f9fa, #e9ecef); border-radius: 10px; border: 2px dashed #0050b3; box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 10px; margin: 50px 0px; padding: 30px; text-align: center;">
-<h3 style="color: #2c3e50; margin-top: 0px;">📩 喜歡這篇「用數據說話」的投資筆記？</h3>
-<p style="color: #555555; margin: 15px 0px;">我不靠感覺，只信回測。如果你也想第一時間收到我的 <strong>Python 股市回測報告</strong> 與 <strong>科技產業觀點</strong>，歡迎訂閱我的Blog，不再錯過任何一次市場真相。</p>
 </div>
 <p style="color: #999999; font-size: 0.8em; margin-top: 30px; text-align: center;">*(備註：本研究使用 Python 進行 12 年歷史回測，過去績效不代表未來獲利，投資人應自行評估風險)*</p>
 </div>
