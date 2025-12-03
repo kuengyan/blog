@@ -2,22 +2,22 @@
     {
         "path": "0050-00878-investment-guide.html",
         "type": "file",
-        "md5": "31022325e85fc5cc7884a21c4c9c0a8c"
+        "md5": "ee98965d2efe18e4e78d2cb2aec9205d"
     },
     {
         "path": "0050-00878-vs-us-stocks-python.html",
         "type": "file",
-        "md5": "fcdd120c94f287577aca486c62b7ca24"
+        "md5": "956282030b7537b73dfa62f8d611b0eb"
     },
     {
         "path": "2026-stock-strategy-0050-backtest.html",
         "type": "file",
-        "md5": "e63e4d9c907dca97ff8c28c73e3806c7"
+        "md5": "4a1abe4bd94ed780dd0ffa8c8daa363b"
     },
     {
         "path": "404.html",
         "type": "file",
-        "md5": "5dd168cb2d0eb25a167111b5a39147d4"
+        "md5": "e53b2423bde8c9d0dcf4c5da8f4b2b5a"
     },
     {
         "path": "assets",
@@ -102,42 +102,57 @@
     {
         "path": "/authors/lao-bing/index.html",
         "type": "file",
-        "md5": "ccfd97b7c0bec78abaa8a4b44f2110f6"
+        "md5": "7832f90eea74877de9ef071796f4ee37"
+    },
+    {
+        "path": "authors/lao-bing/page",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "authors/lao-bing/page/2",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/authors/lao-bing/page/2/index.html",
+        "type": "file",
+        "md5": "5c976bffb45ef2502776f235ff69e8c8"
     },
     {
         "path": "buy-dip-vs-market-python-heatmap.html",
         "type": "file",
-        "md5": "20670fdd0795cf6a462a6bdfd4981e8d"
+        "md5": "7ef12577caed14c50342b6d5a845237e"
     },
     {
         "path": "dca-vs-buy-the-dip-etf-backtest.html",
         "type": "file",
-        "md5": "d5a7fa48d89f009f9443eaea668190de"
+        "md5": "98bec96d32cbacacd7d750292c4deb3d"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "53f5510bb4b2d03cd786ae777931e1f5"
+        "md5": "0250d3683128bcd48aed1d6c76f49efd"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "377a87444503bb1e7e3606b5b7c48b81"
+        "md5": "f38c09ae8488eadf04017f69682479a9"
     },
     {
         "path": "high-dividend-vs-market-cap-etf.html",
         "type": "file",
-        "md5": "9d3494da9713dc8797894d37dff3d3cc"
+        "md5": "ab3a2e7c428335d5a6d3350d0db2bcbd"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "97296bdbdd0bd724337759f267a62317"
+        "md5": "bcc8724139ac4af6fa6a02426420eccf"
     },
     {
         "path": "major-shareholders-backtest-python.html",
         "type": "file",
-        "md5": "2fa60a2515cd53ff0def3b3031c4997e"
+        "md5": "99667caf48052d5d0adbea8fad1b2d73"
     },
     {
         "path": "media",
@@ -195,9 +210,109 @@
         "md5": "1ed086a9c0f4f06ae7896ae49b58fb6d"
     },
     {
+        "path": "media/posts/11",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/11/Chart1_Monthly_WinRate-2.png",
+        "type": "file",
+        "md5": "027addb805e19fc6f14ee5c27afec1b1"
+    },
+    {
+        "path": "/media/posts/11/Chart2_Gaming_Grouped-2.png",
+        "type": "file",
+        "md5": "7df36755c09c1ad593e663c5afab1bf3"
+    },
+    {
+        "path": "media/posts/11/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/11/responsive/Chart1_Monthly_WinRate-2-2xl.png",
+        "type": "file",
+        "md5": "08f0430480e3310906a61969d268f27b"
+    },
+    {
+        "path": "/media/posts/11/responsive/Chart1_Monthly_WinRate-2-lg.png",
+        "type": "file",
+        "md5": "9c34ddb88e5834d17ac371ec60346e01"
+    },
+    {
+        "path": "/media/posts/11/responsive/Chart1_Monthly_WinRate-2-md.png",
+        "type": "file",
+        "md5": "553db16194c9b679c2f8768335996a1a"
+    },
+    {
+        "path": "/media/posts/11/responsive/Chart1_Monthly_WinRate-2-sm.png",
+        "type": "file",
+        "md5": "a94b1382eced8571a9cdbc3a59ea72a7"
+    },
+    {
+        "path": "/media/posts/11/responsive/Chart1_Monthly_WinRate-2-xl.png",
+        "type": "file",
+        "md5": "574a351cdf52e87bb958904aa20a1ebf"
+    },
+    {
+        "path": "/media/posts/11/responsive/Chart1_Monthly_WinRate-2-xs.png",
+        "type": "file",
+        "md5": "2b5b509bf0bd4415c2a48abba038175a"
+    },
+    {
+        "path": "/media/posts/11/responsive/Chart2_Gaming_Grouped-2-2xl.png",
+        "type": "file",
+        "md5": "b3bf4080b60f434b5a7cb41710fdab1c"
+    },
+    {
+        "path": "/media/posts/11/responsive/Chart2_Gaming_Grouped-2-lg.png",
+        "type": "file",
+        "md5": "c9e5323ebb96d0a1cd92241341507dfd"
+    },
+    {
+        "path": "/media/posts/11/responsive/Chart2_Gaming_Grouped-2-md.png",
+        "type": "file",
+        "md5": "520b4ccbdf64724c04623063abb466d9"
+    },
+    {
+        "path": "/media/posts/11/responsive/Chart2_Gaming_Grouped-2-sm.png",
+        "type": "file",
+        "md5": "cb25a2a5add928428afafe1a33d51d7b"
+    },
+    {
+        "path": "/media/posts/11/responsive/Chart2_Gaming_Grouped-2-xl.png",
+        "type": "file",
+        "md5": "f08ecee1c2cf5b931c9aa00cf7c5bfa4"
+    },
+    {
+        "path": "/media/posts/11/responsive/Chart2_Gaming_Grouped-2-xs.png",
+        "type": "file",
+        "md5": "b6bb1ba1ce0e8d46d4c6e7241383915f"
+    },
+    {
+        "path": "page",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "page/2",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/page/2/index.html",
+        "type": "file",
+        "md5": "1e48f1bbc4fa95e5c2cc1d136bd24d13"
+    },
+    {
+        "path": "python-stock-seasonality-backtest.html",
+        "type": "file",
+        "md5": "153fc66baba12060125ba5d8235d7a5b"
+    },
+    {
         "path": "replace-win11-cangjie-with-rime.html",
         "type": "file",
-        "md5": "8e8ae773346a111bbb0ae29d8acaad88"
+        "md5": "cc0499ea16fc3b8ac1f381811a4733d9"
     },
     {
         "path": "robots.txt",
@@ -207,7 +322,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "38e3e0c4d551c1de04cc1c0b8547ea43"
+        "md5": "f0f4ce8055ec2105113541546d704896"
     },
     {
         "path": "sitemap.xsl",
@@ -222,16 +337,16 @@
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "d1899bc7530004be7789a4387c2ef0b4"
+        "md5": "1f104c445830a896e37edc52ca7760f0"
     },
     {
         "path": "tai-gu-da-shu-ju-jun-xian-jiu-jie-tu-po-jiu-hui-penwo-yong-python-pao-liao-shu-qian-wan-ci-yun-suanjie-luxi-pan-qi-de-can-ku-zhen-xiang.html",
         "type": "file",
-        "md5": "6d15712fd4356ae92ffe6089be8a2953"
+        "md5": "6e43821f826289095a96e952f48ebb8a"
     },
     {
         "path": "three_investors.html",
         "type": "file",
-        "md5": "9024c9107b007ad3d2bf5d4773bc0a6f"
+        "md5": "494655dc5cbc63fa743031075ecc5d53"
     }
 ]
