@@ -3,12 +3,162 @@
     <title>科技老兵的生活筆記</title>
     <link href="https://focusonmystory.pages.dev/feed.xml" rel="self" />
     <link href="https://focusonmystory.pages.dev" />
-    <updated>2025-12-13T21:34:14+08:00</updated>
+    <updated>2025-12-16T21:37:42+08:00</updated>
     <author>
         <name>老兵</name>
     </author>
     <id>https://focusonmystory.pages.dev</id>
 
+    <entry>
+        <title>【打臉實驗】我用「營收濾網」想賺更多，結果少賺 40%...跌深反彈策略的殘酷真相</title>
+        <author>
+            <name>老兵</name>
+        </author>
+        <link href="https://focusonmystory.pages.dev/why-revenue-growth-fails-trading.html"/>
+        <id>https://focusonmystory.pages.dev/why-revenue-growth-fails-trading.html</id>
+
+        <updated>2025-12-16T21:37:42+08:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    發布日期：2025-12-16 | 分類：策略研究 在上一篇文章中，我開發了一個針對「跌深反彈」的技術面策略（均線糾結 +跌深 + MACD）。 但身為一個追求完美的開發者，我總想著：「如果我能把那些爛公司過濾掉，只買有基本面支撐的股票，績效一定會更好吧？」 於是我設計了這次的實驗，試圖加入兩道基本面濾網： 我滿心期待地按下回測按鈕，結果跑出來的數據，卻給了我一記當頭棒喝。 為了確保實驗嚴謹，我設定了以下條件： 結果如下： 註：原始策略在 7 年內共觸發 796 筆交易，平均每年約 110 次，即每 3 天就有一次機會。 發現了什麼？ 這個結果雖然違反直覺，但仔細分析後，卻非常符合股市的運作邏輯。以下是四個專業級的洞察： 這是我學到最重要的一課。MoM 在這裡失效，不是因為基本面不重要，而是因為「進場延遲」。 在量化交易中，加越多條件不代表越好。想像你在挑選約會對象： 技術面策略也是如此。當「均線糾結 + MACD金叉」已經是一個完整的訊號時，再疊加基本面濾網，反而會把最好的機會過濾掉。 👉 記住：價格本身就是最即時的資訊總和。 這是一個殘酷的事實：基本面較弱、籌碼結構較凌亂的個股，在情緒修復階段，反彈幅度往往比績優股更劇烈。 ✅ 適合： ❌ 不適合： 這次的失敗實驗，其實比成功更有價值。它教會了我兩件事： (本文數據基於 2018-2025 歷史回測研究，過去績效不代表未來獲利) Q1: 那基本面是不是沒用？ A: 不是！基本面在「長線投資」很重要，但在「跌深反彈」這種短線策略就變累贅。關鍵是「時間尺度要匹配」。 Q2:&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <header>
+<p class="meta">發布日期：2025-12-16 | 分類：策略研究</p>
+</header>
+<article>
+<blockquote><strong>📝 關鍵重點 (3分鐘速讀版)</strong>
+<ul style="margin-top: 10px;">
+<li><strong>實驗目的</strong>：試圖為「跌深反彈策略」加入基本面濾網（YoY 與 MoM），希望能避雷並提高獲利。</li>
+<li><strong>意外結果</strong>：加入濾網後，績效不增反減。<strong>原始的純技術面策略 (3.62%) 表現最好</strong>。</li>
+<li><strong>深度啟示</strong>：問題不在基本面無效，而在於<strong>「時間尺度錯配」</strong>。拿「月」單位的營收去抓「日」單位的反彈，就像<strong>用月曆去約今天下午的電影</strong>，註定會錯過開場。</li>
+</ul>
+</blockquote>
+<hr style="border: 0; border-top: 1px solid #eee; margin: 30px 0;">
+<p>在<a href="https://focusonmystory.pages.dev/macd_strategy">上一篇文章</a>中，我開發了一個針對「跌深反彈」的技術面策略（均線糾結 +跌深 + MACD）。</p>
+<p>但身為一個追求完美的開發者，我總想著：「如果我能把那些爛公司過濾掉，只買有基本面支撐的股票，績效一定會更好吧？」</p>
+<p>於是我設計了這次的實驗，試圖加入兩道基本面濾網：</p>
+<ol>
+<li><strong>績優思維 (YoY &gt; 0)</strong>：只買營收年增的股票。</li>
+<li><strong>轉機思維 (MoM &gt; 0)</strong>：只買營收月增（止血）的股票。</li>
+</ol>
+<p>我滿心期待地按下回測按鈕，結果跑出來的數據，卻給了我一記當頭棒喝。</p>
+<h2>💥 數據揭密：越複雜，賺越少？</h2>
+<p>為了確保實驗嚴謹，我設定了以下條件：</p>
+<ul>
+<li><strong>選股時間</strong>：每月 15 號（確保上月營收已公布）。</li>
+<li><strong>持有時間</strong>：<strong>60 天</strong>（測試能否將短線策略轉化為中線波段）。</li>
+<li><strong>交易成本</strong>：扣除手續費與交易稅。</li>
+</ul>
+<p>結果如下：</p>
+<figure class="post__image"><img loading="lazy"  src="https://focusonmystory.pages.dev/media/posts/16/experiment_4_comparison.png" alt="" width="1000" height="600" sizes="(max-width: 48em) 100vw, 768px" srcset="https://focusonmystory.pages.dev/media/posts/16/responsive/experiment_4_comparison-xs.png 300w ,https://focusonmystory.pages.dev/media/posts/16/responsive/experiment_4_comparison-sm.png 480w ,https://focusonmystory.pages.dev/media/posts/16/responsive/experiment_4_comparison-md.png 768w ,https://focusonmystory.pages.dev/media/posts/16/responsive/experiment_4_comparison-lg.png 1024w ,https://focusonmystory.pages.dev/media/posts/16/responsive/experiment_4_comparison-xl.png 1360w ,https://focusonmystory.pages.dev/media/posts/16/responsive/experiment_4_comparison-2xl.png 1600w"></figure>
+<table>
+<thead>
+<tr>
+<th>策略版本</th>
+<th>核心邏輯</th>
+<th>平均報酬 (每筆)</th>
+<th>交易機會</th>
+<th>回測期間</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1. 原始策略</strong></td>
+<td><strong>純技術面 (跌深+MACD)</strong></td>
+<td><strong>3.62%</strong> 👑</td>
+<td>796 筆</td>
+<td>2018-2025 (7年)</td>
+</tr>
+<tr>
+<td><strong>2. 績優思維</strong></td>
+<td>加上營收年增 (YoY &gt; 0)</td>
+<td><strong>3.12%</strong></td>
+<td>137 筆</td>
+<td>同上</td>
+</tr>
+<tr>
+<td><strong>3. 轉機思維</strong></td>
+<td>加上營收月增 (MoM &gt; 0)</td>
+<td><strong>1.99%</strong></td>
+<td>370 筆</td>
+<td>同上</td>
+</tr>
+</tbody>
+</table>
+<p><em>註：原始策略在 7 年內共觸發 796 筆交易，平均每年約 110 次，<strong>即每 3 天就有一次機會</strong>。</em></p>
+<p><strong>發現了什麼？</strong></p>
+<ol>
+<li><strong>原始策略大獲全勝</strong>：什麼濾網都不加，單純看技術面訊號，平均報酬 <strong>3.62%</strong> 最高。</li>
+<li><strong>MoM 濾網反而拖累</strong>：我原本寄予厚望的「轉機濾網 (MoM)」，竟然讓績效掉到 <strong>1.99%</strong>。</li>
+<li><strong>交易機會腰斬</strong>：加入濾網後，交易次數大幅減少，這代表我們錯過了太多「醜小鴨變天鵝」的機會。</li>
+</ol>
+<hr style="border: 0; border-top: 1px solid #eee; margin: 30px 0;">
+<h2>🕵️‍♂️ 深度檢討：為什麼基本面失效了？</h2>
+<p>這個結果雖然違反直覺，但仔細分析後，卻非常符合股市的運作邏輯。以下是四個專業級的洞察：</p>
+<h3>1. 核心原因：時間尺度的錯配 (Time Scale Mismatch)</h3>
+<p>這是我學到最重要的一課。<strong>MoM 在這裡失效，不是因為基本面不重要，而是因為「進場延遲」。</strong></p>
+<div style="background-color: #fdf2f2; padding: 15px; border-left: 4px solid #e74c3c; margin: 15px 0;"><strong>真實案例模擬：某光學股的反彈時序</strong><br>假設一檔股票在 1 月初因產業利空重挫：
+<ul>
+<li><strong>1/5</strong>：股價腰斬，技術面出現超賣。</li>
+<li><strong>1/8</strong>：MACD 金叉，<strong>原始策略進場 @50元</strong> ✅（買在低點）。</li>
+<li><strong>1/10</strong>：公布 12 月營收（YoY -15%, MoM -5%），MoM 策略觀望 ❌。</li>
+<li><strong>1/15~1/30</strong>：股價反彈至 65元 (+30%)，主升段結束。</li>
+<li><strong>2/10</strong>：公布 1 月營收（首次月增 MoM +8%），MoM 策略終於進場 @62元。</li>
+<li><strong>2/11~</strong>：利多出盡，股價開始整理甚至回檔...</li>
+</ul>
+<strong>👉 一句話總結</strong>：原始策略賺了 30%，MoM 策略只賺 5% 甚至可能套牢。這就是「拿月資料抓日行情」的代價。</div>
+<h3>2. 過度濾網的陷阱 (Overfitting)</h3>
+<p>在量化交易中，加越多條件不代表越好。<strong>想像你在挑選約會對象</strong>：</p>
+<ul>
+<li><strong>要求</strong>：身高180、年收百萬、有車有房、還要孝順父母...</li>
+<li><strong>結果</strong>：條件越多，能約到的人越少，最後可能一個都遇不到。</li>
+</ul>
+<p>技術面策略也是如此。當「均線糾結 + MACD金叉」已經是一個完整的訊號時，再疊加基本面濾網，反而會把最好的機會過濾掉。<br><strong>👉 記住：價格本身就是最即時的資訊總和。</strong></p>
+<h3>3. 反彈力道的差異：爛學生的進步獎</h3>
+<p>這是一個殘酷的事實：<strong>基本面較弱、籌碼結構較凌亂的個股，在情緒修復階段，反彈幅度往往比績優股更劇烈。</strong></p>
+<ul>
+<li><strong>績優股 (YoY &gt; 0)</strong>：體質好，本來就跌得少，所以反彈空間也有限。</li>
+<li><strong>爛公司 (原始策略)</strong>：因為市場預期極低，一旦氣氛轉好，容易出現「軋空」或「報復性上漲」。原始策略因為「不挑食」，反而吃到了這些<strong>爛學生拿進步獎</strong>的紅利。</li>
+</ul>
+<hr style="border: 0; border-top: 1px solid #eee; margin: 30px 0;">
+<h2>🎯 這個策略適合誰？</h2>
+<p><strong>✅ 適合：</strong></p>
+<ul>
+<li>追求<strong>「高頻交易 × 賺賠比優勢」</strong>的量化玩家。</li>
+<li>能接受「勝率不到 50%」但懂得用資金控管賺錢的交易者。</li>
+<li>有時間盯盤，能嚴格執行停損的專職投資人。</li>
+</ul>
+<p><strong>❌ 不適合：</strong></p>
+<ul>
+<li>上班族（無法即時反應）。</li>
+<li>追求穩定現金流的存股族。</li>
+<li>看到帳面虧損會睡不著的保守型投資人。</li>
+</ul>
+<h2>總結：簡單，就是力量</h2>
+<p>這次的失敗實驗，其實比成功更有價值。它教會了我兩件事：</p>
+<ol>
+<li><strong>策略要對應時間尺度</strong>：短線策略看技術面（反應快），長線策略看基本面（反應慢）。混在一起用，只會互相打架。</li>
+<li><strong>尊重數據</strong>：直覺覺得「加基本面比較安全」，但數據說「不，這樣會少賺」。在市場面前，我們必須謙卑地相信數據。</li>
+</ol>
+<p><em>(本文數據基於 2018-2025 歷史回測研究，過去績效不代表未來獲利)</em></p>
+<hr style="border: 0; border-top: 1px solid #eee; margin: 30px 0;">
+<h2>🙋 常見問題 Q&amp;A</h2>
+<p><strong>Q1: 那基本面是不是沒用？</strong><br>A: 不是！基本面在「長線投資」很重要，但在「跌深反彈」這種短線策略就變累贅。關鍵是「時間尺度要匹配」。</p>
+<p><strong>Q2: 我可以把 60 天改成 12 天嗎？</strong><br>A: 可以！本文特意測試 60 天，是為了證明「拉長無益」。實際執行建議 <strong>12-20 天</strong>，才能吃到最肥的魚頭。</p>
+<p><strong>Q3: 這個策略現在還有效嗎？</strong><br>A: 回測到 2025 年，但市場會進化。建議每季檢討績效，如果連續虧損超過 20 筆就停用。</p>
+<p><strong>Q4: 這個策略需要哪些工具？</strong><br>A: 最低需求只有三樣：</p>
+<ol>
+<li>能顯示 MACD 指標的看盤軟體。</li>
+<li>能查詢營收公告的資料源（如公開資訊觀測站）。</li>
+<li><strong>紀律執行停損停利的意志力 ← 這個最重要！</strong></li>
+</ol>
+</article>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>【MACD 參數設定教學】(6,13,9) 黃金交叉回測：8年台股數據揭密勝率與獲利｜Python 量化實證 Ep.3</title>
         <author>
@@ -1806,164 +1956,6 @@
 <p>別再猶豫比例了，選一個你睡得著覺的組合，<strong>今天就開始</strong>。</p>
 </div>
 <p style="font-size: 0.8em; color: #999; text-align: center; margin-top: 30px;">*(免責聲明：本文內容純屬個人實驗紀錄，不是投資建議！所有回測都是「看著後照鏡開車」，不代表未來績效。投資有風險，請自己做好功課！)*</p>
-</div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>台股大跌時該撿「跌深股」還是「大盤」？一張 Python 熱力圖揭露殘酷真相</title>
-        <author>
-            <name>老兵</name>
-        </author>
-        <link href="https://focusonmystory.pages.dev/buy-dip-vs-market-python-heatmap.html"/>
-        <id>https://focusonmystory.pages.dev/buy-dip-vs-market-python-heatmap.html</id>
-
-        <updated>2025-11-25T21:22:09+08:00</updated>
-            <summary type="html">
-                <![CDATA[
-                    文 / 科技老兵 最近台股修正幅度驚人，市場情緒瞬間凍到冰點。 朋友問我： 「南亞科跌這麼深，是不是便宜到可以撿？還是開槓桿買 0050 正 2 才猛？」 作為一個在科技業與股海打滾近 20 多年的老兵，我看過太多人因為「憑感覺接刀」而畢業。 所以，我拒絕靠直覺，我用 Python 跑了 12 年的歷史數據，並畫出了這張全台股 150 大權值股的「恐慌期反彈熱力圖」。 這張圖會告訴你：為什麼現在閉著眼買大盤，勝率高達 88%？以及誰才是真正的反彈急先鋒？ 為了避免看圖說故事，我們先定義清楚回測邏輯： 這張圖是我篩選全台流動性最好的 Top 150 權值股，回測它們在歷史恐慌期後的表現。 從這張 150 檔的回測圖中，我們發現「選對產業」比「選對時機」更重要： 請看左側那兩塊巨大的紅色拼圖——台積電 (17.9%) 與 大盤(TWII) (13.9%)。 解讀： 這證明了「大到不能倒，跌深一定彈」。在恐慌時刻，資金會優先回補這些最安全的標的。這佐證了我們建議小白「優先買 0050」的策略是絕對正確的。 右側有一些格子雖小但顏色極紅，這些通常是具備長線趨勢的成長股： 💡 啟示：這些股票勝率甚至超過大盤，但波動大，適合進階投資人。 請看圖表下方那一排顏色黯淡的區塊，集中在記憶體與成熟製程： 解讀： 這證明了「景氣循環股」在下行週期時，跌深並不是買點，而是無底洞。 除了畫這張圖，我也特別去回測了那些「跌得最慘」的&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <div style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.8; color: #333; font-size: 18px;">
-<div class="align-left" style="text-align: center; color: #888; font-size: 0.9em; margin-bottom: 30px;">文 / 科技老兵</div>
-<p>最近台股修正幅度驚人，市場情緒瞬間凍到冰點。</p>
-<div style="background-color: whitesmoke; border-left: 5px solid #555555; color: #555555; font-style: italic; margin: 20px 0px; padding: 15px;">
-<p style="margin: 0px;">朋友問我：<br>「南亞科跌這麼深，是不是便宜到可以撿？還是開槓桿買 0050 正 2 才猛？」</p>
-</div>
-<p>作為一個在科技業與股海打滾近 20 多年的老兵，我看過太多人因為「憑感覺接刀」而畢業。</p>
-<p>所以，我拒絕靠直覺，我用 Python 跑了 <strong>12 年的歷史數據</strong>，並畫出了這張全台股 150 大權值股的<strong>「恐慌期反彈熱力圖」</strong>。</p>
-<p>這張圖會告訴你：為什麼現在閉著眼買大盤，勝率高達 88%？以及誰才是真正的反彈急先鋒？</p>
-<div style="background-color: #e6f7ff; border-radius: 8px; border: 1px solid #91d5ff; margin: 30px 0px; padding: 20px;">
-<h3 style="color: #0050b3; margin-top: 0px;">一、 研究方法：我們如何定義「勝率」？</h3>
-<p>為了避免看圖說故事，我們先定義清楚回測邏輯：</p>
-<ul style="padding-left: 20px;">
-<li><strong>回測區間：</strong> 2013/01/01 ~ 2025/11/20（涵蓋貿易戰、疫情、升息循環）。</li>
-<li><strong>觸發條件：</strong> 大盤跌破季線 10%（歷史上共發生 60 次）。</li>
-<li><strong>持有期間：</strong> 訊號出現後買進，固定持有 60 個交易日（約一季）。</li>
-<li><strong>勝率定義：</strong> 持有 3 個月後報酬率 &gt; 0% 的機率。</li>
-</ul>
-</div>
-<h2 style="border-bottom: 2px solid #0050b3; color: #2c3e50; margin-top: 40px; padding-bottom: 10px;">二、 數據說話：一張圖看懂市場全貌</h2>
-<p>這張圖是我篩選全台流動性最好的 Top 150 權值股，回測它們在歷史恐慌期後的表現。</p>
-<ul>
-<li><strong>格子大小：</strong> 代表成交金額（流動性）。</li>
-<li><strong>顏色深淺：</strong> <span style="color: #cf1322; font-weight: bold;">紅色</span>代表報酬率高，<span style="color: #389e0d; font-weight: bold;">綠色</span>代表賠錢，黃色代表持平。</li>
-</ul>
-<div style="text-align: center; margin: 20px 0;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEjeQ8o04zExaLOu0iD5xdtYhhwsA0EfUXwzxOn1VxaGRJmyXPrZgqk84PTYe0AOBBih9VzkO9C4sOQrYFb3GLoppma2ZzKRGVJ_-d6agh1Oh2bzUXVCGFCT_LJ-ru4HTzt5o5BJQ6AbTee2ASqYeCOHimJ5OjAmW2MXcG5m-A65URpdMAIUx6DYw3SSqR0Q"> <img loading="lazy" style="max-width: 100%; height: auto; border-radius: 5px;" src="https://blogger.googleusercontent.com/img/a/AVvXsEjeQ8o04zExaLOu0iD5xdtYhhwsA0EfUXwzxOn1VxaGRJmyXPrZgqk84PTYe0AOBBih9VzkO9C4sOQrYFb3GLoppma2ZzKRGVJ_-d6agh1Oh2bzUXVCGFCT_LJ-ru4HTzt5o5BJQ6AbTee2ASqYeCOHimJ5OjAmW2MXcG5m-A65URpdMAIUx6DYw3SSqR0Q" alt="台股150檔權值股恐慌期反彈熱力圖" data-is-external-image="true"> </a></div>
-<h3 style="color: #0050b3; margin-top: 30px;">🔬 老兵帶你看圖抓重點：產業決定勝率</h3>
-<p>從這張 150 檔的回測圖中，我們發現「選對產業」比「選對時機」更重要：</p>
-<div style="margin-bottom: 20px;">
-<h4 style="color: #cf1322; margin-bottom: 5px;">🔴 1. 紅色堡壘：大盤與台積電 (The Safe Haven)</h4>
-<p>請看左側那兩塊巨大的紅色拼圖——<strong>台積電 (17.9%)</strong> 與 <strong>大盤(TWII) (13.9%)</strong>。</p>
-<p style="background: #fff1f0; border-left: 4px solid #cf1322; font-size: 0.95em; padding: 10px;"><strong>解讀：</strong> 這證明了「大到不能倒，跌深一定彈」。在恐慌時刻，資金會優先回補這些最安全的標的。這佐證了我們建議小白「優先買 0050」的策略是絕對正確的。</p>
-</div>
-<div style="margin-bottom: 20px;">
-<h4 style="color: #a8071a; margin-bottom: 5px;">💎 2. 深紅寶石：強勢產業 (High Probability)</h4>
-<p>右側有一些格子雖小但顏色極紅，這些通常是具備長線趨勢的成長股：</p>
-<ul style="font-size: 0.95em;">
-<li><strong>AI 散熱：</strong> 奇鋐 (勝率 93%, 報酬 26.5%)</li>
-<li><strong>網通設備：</strong> 智邦 (勝率 90%, 報酬 21.0%)</li>
-<li><strong>半導體設備：</strong> 新應材 (勝率 91%, 報酬 23.1%)</li>
-<li><strong>雲端服務：</strong> 神達 (勝率 93%, 報酬 18.6%)</li>
-</ul>
-<p style="color: #666666; font-size: 0.9em;">💡 啟示：這些股票勝率甚至超過大盤，但波動大，適合進階投資人。</p>
-</div>
-<div style="margin-bottom: 20px;">
-<h4 style="color: #d48806; margin-bottom: 5px;">⚠️ 3. 黃色警示區：弱勢產業 (Low Probability)</h4>
-<p>請看圖表下方那一排顏色黯淡的區塊，集中在記憶體與成熟製程：</p>
-<ul style="font-size: 0.95em;">
-<li><strong>記憶體：</strong> 南亞科 (勝率 52%, 報酬 3.7%)</li>
-<li><strong>成熟製程：</strong> 聯電 (勝率 48%, <span style="color: green;">報酬 -0.7%</span>)</li>
-</ul>
-<p style="background: #fffbe6; border-left: 4px solid #d48806; font-size: 0.95em; padding: 10px;"><strong>解讀：</strong> 這證明了「景氣循環股」在下行週期時，跌深並不是買點，而是無底洞。</p>
-</div>
-<h2 style="border-bottom: 2px solid #0050b3; color: #2c3e50; margin-top: 40px; padding-bottom: 10px;">三、 為什麼「選股」這麼難？</h2>
-<p>除了畫這張圖，我也特別去回測了那些<strong>「跌得最慘」的 Top 30 檔股票</strong>（通常是散戶最愛撿的便宜貨）。</p>
-<div style="margin: 20px 0px; overflow-x: auto;">
-<table style="border-collapse: collapse; min-width: 500px; text-align: center; width: 100%;">
-<thead>
-<tr style="background-color: #333333; color: white;">
-<th style="padding: 10px;">評比項目</th>
-<th style="padding: 10px;">Top 30 跌深個股 (平均)</th>
-<th style="background-color: #cf1322; padding: 10px;">0050 (大盤 ETF)</th>
-<th style="padding: 10px;">殘酷解讀</th>
-</tr>
-</thead>
-<tbody>
-<tr style="background-color: #f9f9f9;">
-<td style="border: 1px solid #dddddd; padding: 10px;">勝率</td>
-<td style="border: 1px solid #dddddd; padding: 10px;">約 65%</td>
-<td style="border: 1px solid #dddddd; color: #cf1322; font-weight: bold; padding: 10px;">88.3%</td>
-<td style="border: 1px solid #dddddd; padding: 10px;">買大盤幾乎穩贏</td>
-</tr>
-<tr>
-<td style="border: 1px solid #dddddd; padding: 10px;">平均報酬</td>
-<td style="border: 1px solid #dddddd; padding: 10px;">+6.2%</td>
-<td style="border: 1px solid #dddddd; color: #cf1322; font-weight: bold; padding: 10px;">+13.9%</td>
-<td style="border: 1px solid #dddddd; padding: 10px;">跌深股反彈無力</td>
-</tr>
-<tr style="background-color: #f9f9f9;">
-<td style="border: 1px solid #dddddd; padding: 10px;">最大虧損</td>
-<td style="border: 1px solid #dddddd; color: green; padding: 10px;">-45% 以上</td>
-<td style="border: 1px solid #dddddd; padding: 10px;">-18.5%</td>
-<td style="border: 1px solid #dddddd; padding: 10px;">個股可能腰斬</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div style="border-radius: 8px; border: 1px solid #dddddd; margin-bottom: 30px; padding: 15px;"><strong style="color: #0050b3;">👴 老兵觀點：</strong><br>跌深往往是因為「有病」。那些跌幅排行榜上的股票，常伴隨著結構性衰退。你以為在撿便宜，其實是在翻垃圾桶。反觀 0050，它自帶「汰弱留強」的機制，這就是為什麼大盤勝率能輾壓個股。</div>
-<h2 style="border-bottom: 2px solid #0050b3; color: #2c3e50; margin-top: 40px; padding-bottom: 10px;">四、 關於「0050 正 2」：給老手的嚴肅建議</h2>
-<p>既然大盤勝率高達 88%，很多工程師問：「能不能買 00631L (正2)？」別急，我們先看數據。</p>
-<div style="margin: 20px 0px; overflow-x: auto;">
-<table style="border-collapse: collapse; min-width: 500px; text-align: center; width: 100%;">
-<thead>
-<tr style="background-color: #e6f7ff; color: #0050b3;">
-<th style="border: 1px solid #b3d7ff; padding: 10px;">項目</th>
-<th style="border: 1px solid #b3d7ff; padding: 10px;">0050 (原型)</th>
-<th style="border: 1px solid #b3d7ff; padding: 10px;">00631L (正2)</th>
-<th style="border: 1px solid #b3d7ff; padding: 10px;">差異分析</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="border: 1px solid #b3d7ff; padding: 10px;">歷史勝率</td>
-<td style="border: 1px solid #b3d7ff; font-weight: bold; padding: 10px;">90.4%</td>
-<td style="border: 1px solid #b3d7ff; padding: 10px;">72.9%</td>
-<td style="border: 1px solid #b3d7ff; color: #cf1322; padding: 10px;">正 2 勝率低了 17%</td>
-</tr>
-<tr style="background-color: white;">
-<td style="border: 1px solid #b3d7ff; padding: 10px;">平均報酬</td>
-<td style="border: 1px solid #b3d7ff; padding: 10px;">+12.8%</td>
-<td style="border: 1px solid #b3d7ff; color: #cf1322; font-weight: bold; padding: 10px;">+17.7%</td>
-<td style="border: 1px solid #b3d7ff; padding: 10px;">正 2 報酬高出 5%</td>
-</tr>
-<tr>
-<td style="border: 1px solid #b3d7ff; padding: 10px;">失敗機率</td>
-<td style="border: 1px solid #b3d7ff; font-weight: bold; padding: 10px;">9.6%</td>
-<td style="border: 1px solid #b3d7ff; color: #cf1322; padding: 10px;">27.1%</td>
-<td style="border: 1px solid #b3d7ff; padding: 10px;">正 2 失敗率是 0050 的 3 倍！</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-<div style="background: #fff1f0; border-radius: 8px; border: 1px solid #ffccc7; flex: 1 1 0%; padding: 15px;"><strong style="color: #cf1322;">⚠️ 給新手的誠實建議：不要碰</strong><br>正 2 雖然賺得多一點，但失敗率高達 27%（每 4 次就有 1 次賠錢）。這是因為槓桿 ETF 有<strong>「波動耗損」</strong>，盤整時會自動扣血。</div>
-<div style="background: #fafafa; border-radius: 8px; border: 1px solid #d9d9d9; flex: 1 1 0%; padding: 15px;"><strong style="color: #333333;">✅ 給老手的進階操作</strong><br>若有 5 年以上經驗，可考慮配置 10%~15% 資金在正 2（衛星持股），並嚴格設定 -15% 停損。絕不可 All-in。</div>
-</div>
-<h2 style="border-bottom: 2px solid #0050b3; color: #2c3e50; margin-top: 40px; padding-bottom: 10px;">五、 結論：大跌時的 3 段式生存指南</h2>
-<div style="border-radius: 10px; border: 2px solid #333333; margin-top: 20px; overflow: hidden;">
-<div style="background-color: #333333; color: white; padding: 10px 20px;"><strong style="font-size: 1.1em;">🛠️ 科技老兵的操作 SOP</strong></div>
-<div style="padding: 20px;">
-<p><strong style="color: #0050b3;">1. 保守派（給 90% 的人）：</strong><br>別想太多，直接買 <strong>0050 或 006208</strong>。看熱力圖就知道，勝率 88%，平均賺 13.9%，這是數學上最優的解法。</p>
-<hr style="border-bottom: 0px; border-image: initial; border-left: 0px; border-right: 0px; border-top: 1px dashed #cccccc; border: 0px; margin: 15px 0px;">
-<p><strong style="color: #cf1322;">2. 積極派（給懂產業的人）：</strong><br>如果你不甘心只賺大盤，請從熱力圖中挑選 <strong>「顏色深紅」</strong> 的權值股（如台積電、奇鋐）。千萬別碰綠色或黃色的弱勢股。</p>
-<hr style="border-bottom: 0px; border-image: initial; border-left: 0px; border-right: 0px; border-top: 1px dashed #cccccc; border: 0px; margin: 15px 0px;">
-<p><strong style="color: #333333;">3. 資金控管（最重要）：</strong><br>為了應對那 12% 的極端黑天鵝，請將資金分成 3 份（現在、再跌 5%、再跌 10%）分批進場。</p>
-</div>
-</div>
-<p style="color: #999999; font-size: 0.8em; margin-top: 30px; text-align: center;">*(備註：本研究使用 Python 進行 12 年歷史回測，過去績效不代表未來獲利，投資人應自行評估風險)*</p>
 </div>
             ]]>
         </content>

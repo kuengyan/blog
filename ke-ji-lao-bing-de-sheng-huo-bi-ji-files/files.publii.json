@@ -2,22 +2,22 @@
     {
         "path": "0050-00878-investment-guide.html",
         "type": "file",
-        "md5": "0796e44861c68522c98db487727dff19"
+        "md5": "5e75ea37fca27ba6aab5c344ec98da37"
     },
     {
         "path": "0050-00878-vs-us-stocks-python.html",
         "type": "file",
-        "md5": "7192843edb2fd68517c68c8c703c2ba1"
+        "md5": "e42bb834dd5fc4bcf4019f075caf3c88"
     },
     {
         "path": "2026-stock-strategy-0050-backtest.html",
         "type": "file",
-        "md5": "16bc5ab87f2c11d1ca851f9e91bd144c"
+        "md5": "fc1023f168203f5ac053cc6c7267615d"
     },
     {
         "path": "404.html",
         "type": "file",
-        "md5": "e13f5e548fba93b138eb12813dc3080d"
+        "md5": "cad3450eb552582e4c163b5ac7d3ca9c"
     },
     {
         "path": "assets",
@@ -102,7 +102,7 @@
     {
         "path": "/authors/lao-bing/index.html",
         "type": "file",
-        "md5": "091cde04e2d37925518eb3bafd1c51f1"
+        "md5": "a11dded50782e2404d7c7ef3c1d7ee2f"
     },
     {
         "path": "authors/lao-bing/page",
@@ -117,47 +117,47 @@
     {
         "path": "/authors/lao-bing/page/2/index.html",
         "type": "file",
-        "md5": "2f3f0e2088753ddcc299e79d8dc60755"
+        "md5": "148581a3773d8e6c85389d1def7ba45c"
     },
     {
         "path": "buy-dip-vs-market-python-heatmap.html",
         "type": "file",
-        "md5": "f86ec3a6cc69df49d328b48052d3318a"
+        "md5": "4b206707dd5acafb4f6f7eb7f371df88"
     },
     {
         "path": "dca-vs-buy-the-dip-etf-backtest.html",
         "type": "file",
-        "md5": "2ee4e2f79b01591c3caed37a4122e220"
+        "md5": "df1491411559b941153c89e4f7a30331"
     },
     {
         "path": "feed.json",
         "type": "file",
-        "md5": "9338e97b04e1a399e76a9350654a1b86"
+        "md5": "7c90fcc00fa8fdb1399dd93a6f89c7a3"
     },
     {
         "path": "feed.xml",
         "type": "file",
-        "md5": "878a815be6a25f07d7a6b95654fe9a9e"
+        "md5": "9ffb5da8ace714e99a394ebdc51342b1"
     },
     {
         "path": "high-dividend-vs-market-cap-etf.html",
         "type": "file",
-        "md5": "c389e780d0526e46c0c8614f45546172"
+        "md5": "ee14171b895f44eae84c60fd6382b95d"
     },
     {
         "path": "index.html",
         "type": "file",
-        "md5": "9b34133e5e2663f0b2a41862ebe5dd5e"
+        "md5": "ba75c7a29387b55cdedffc94c0a1c719"
     },
     {
         "path": "macd_strategy.html",
         "type": "file",
-        "md5": "e8c75fe8709972be26f15b38434da0a9"
+        "md5": "4081e52da5ef64903597ded174e586c1"
     },
     {
         "path": "major-shareholders-backtest-python.html",
         "type": "file",
-        "md5": "0bf61ed5fa25f31e1f3294334d7a37aa"
+        "md5": "4463a22d61eadfd8d9c4b265d43ea1c3"
     },
     {
         "path": "media",
@@ -385,6 +385,51 @@
         "md5": "3afb88d9d14090de2bb66b1af6962d9c"
     },
     {
+        "path": "media/posts/16",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/16/experiment_4_comparison.png",
+        "type": "file",
+        "md5": "0dceb6e136b8c0cb6dda73a1921fea9f"
+    },
+    {
+        "path": "media/posts/16/responsive",
+        "type": "directory",
+        "md5": false
+    },
+    {
+        "path": "/media/posts/16/responsive/experiment_4_comparison-2xl.png",
+        "type": "file",
+        "md5": "4a99f378a9fa0727d9d9d20acc84ae28"
+    },
+    {
+        "path": "/media/posts/16/responsive/experiment_4_comparison-lg.png",
+        "type": "file",
+        "md5": "4a99f378a9fa0727d9d9d20acc84ae28"
+    },
+    {
+        "path": "/media/posts/16/responsive/experiment_4_comparison-md.png",
+        "type": "file",
+        "md5": "345726c69e1364c572033c8c2566586a"
+    },
+    {
+        "path": "/media/posts/16/responsive/experiment_4_comparison-sm.png",
+        "type": "file",
+        "md5": "af5783018d157c79ac587013518cb962"
+    },
+    {
+        "path": "/media/posts/16/responsive/experiment_4_comparison-xl.png",
+        "type": "file",
+        "md5": "4a99f378a9fa0727d9d9d20acc84ae28"
+    },
+    {
+        "path": "/media/posts/16/responsive/experiment_4_comparison-xs.png",
+        "type": "file",
+        "md5": "fd2d8c9d325364c1cc3e76f68d8791ab"
+    },
+    {
         "path": "page",
         "type": "directory",
         "md5": false
@@ -397,17 +442,17 @@
     {
         "path": "/page/2/index.html",
         "type": "file",
-        "md5": "1e9201ffdaa81342b6146b8f02917e46"
+        "md5": "e3251ad7a3c3fe8fde01aa85aa4f6353"
     },
     {
         "path": "python-stock-seasonality-backtest.html",
         "type": "file",
-        "md5": "649abfd7227e424ac4e77289b3891c9d"
+        "md5": "d1b9ecc3c1e587b4bef2b8ab47ce337a"
     },
     {
         "path": "replace-win11-cangjie-with-rime.html",
         "type": "file",
-        "md5": "c9a8f06e5cd9acea82382dbdaed681bf"
+        "md5": "5d5173521a852d74eb5a5bca9f5a1dc1"
     },
     {
         "path": "robots.txt",
@@ -417,7 +462,7 @@
     {
         "path": "sitemap.xml",
         "type": "file",
-        "md5": "26b8672327472a4764c6ed40d9d9b988"
+        "md5": "26de6203762a2ccb7e9b1a00415506fb"
     },
     {
         "path": "sitemap.xsl",
@@ -432,31 +477,36 @@
     {
         "path": "/tags/index.html",
         "type": "file",
-        "md5": "b47afd41222ab325b39105b72d7cf2e5"
+        "md5": "a9c1e5ddf6c17251c71225ad7f83be69"
     },
     {
         "path": "tai-gu-da-shu-ju-jun-xian-jiu-jie-tu-po-jiu-hui-penwo-yong-python-pao-liao-shu-qian-wan-ci-yun-suanjie-luxi-pan-qi-de-can-ku-zhen-xiang.html",
         "type": "file",
-        "md5": "366072744c2406713e8ef1ee4fbf246b"
+        "md5": "cb5e63f44a216003891d457f06ceb7a6"
     },
     {
         "path": "the-40-drop-golden-rule-for-buying-stocks.html",
         "type": "file",
-        "md5": "28dee2d881a58bf751e5cf95abb1a674"
+        "md5": "3515d89b832b1bc82365772da41718c4"
     },
     {
         "path": "three_investors.html",
         "type": "file",
-        "md5": "0f0e4e0881d210dc8ba8713cc888137b"
+        "md5": "3b9d2620c7081ae8c7f94ea2f40e2f63"
     },
     {
         "path": "trend-following-breakout-strategy-backtest.html",
         "type": "file",
-        "md5": "5b895fb89a5efa826f2e847f1c12bc85"
+        "md5": "9f6869d7849e52b5742999eadbdd8ab1"
     },
     {
         "path": "trust-buying-backtest-strategy.html",
         "type": "file",
-        "md5": "86bddd8a2ac01f474b223f62686efb81"
+        "md5": "59eceec09a58f92e4f6076727effde18"
+    },
+    {
+        "path": "why-revenue-growth-fails-trading.html",
+        "type": "file",
+        "md5": "ebd252c130d001480f7e1862d44f6e99"
     }
 ]
